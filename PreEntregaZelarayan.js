@@ -167,8 +167,11 @@ function Catalogo(nombre, precio, color, acabado){
     this.nombre = nombre,
     this.precio = precio,
     this.color = color,
-    this.acabado = acabado
+    this.acabado = acabado,
+    this.mostrarDatos = function (){console.log(`Elejiste del catalogo a juego ${this.nombre} el precio es de $ ${this.precio} el color es ${this.color} y el acabado es ${this.acabado}`)}
 }
 
 const catalogo = new Catalogo("Espartano", 12999, "blanco y negro", "mate")
 console.log(catalogo)
+
+catalogo.mostrarDatos()
