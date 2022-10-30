@@ -137,3 +137,16 @@ console.log(integrante2)
 console.log(integrante1.nombre)
 console.log(integrante2.rol)
 console.log(integrante3.rol)
+
+integrante2.ciudad = "Lomas de Zamora"
+console.log(integrante2.ciudad)
+
+function Staff(nombre, edad, rol, ciudad){
+    this.nombre = nombre,
+    this.edad = edad,
+    this.rol = rol,
+    this.ciudad = ciudad
+}
+
+const staff = new Staff("Victoria", 18, "vendedora", "CABA")
+console.log(staff)
