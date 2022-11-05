@@ -183,7 +183,7 @@ console.log(arrayMiembrosEquipo[0])
 
 const miembros = [`Sebastian`, `Martin`, `Tiago`, `Victoria`]
 console.log(miembros)
-for(let i = 0; i < 4; i++){
-    console.log(miembros[i])
+for(let i = 0; i < miembros.length; i++){
+    console.log("Miembros del equipo Ziddesign " + miembros[i])
 }
 
