@@ -204,3 +204,5 @@ console.log(arrayMiembrosEquipo)
 
 productos.splice(5, 1)
 console.log(productos)
+
+console.log(productos.join(" - "))
