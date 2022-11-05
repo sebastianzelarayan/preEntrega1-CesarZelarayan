@@ -187,3 +187,8 @@ for(let i = 0; i < miembros.length; i++){
     console.log("Miembros del equipo Ziddesign " + miembros[i])
 }
 
+const productos = [`Juego Espartano`, `Juego Torsion`, `Juego mecanico`, `Trofeo Primer Puesto`, `Trofeo Segundo Puesto`]
+console.log(productos)
+for(let i = 0; i < productos.length; i++){
+    console.log("Productos disponibles " + productos[i])
+}
