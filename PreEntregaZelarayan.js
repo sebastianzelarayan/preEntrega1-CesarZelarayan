@@ -187,7 +187,7 @@ for(let i = 0; i < miembros.length; i++){
     console.log("Miembros del equipo Ziddesign " + miembros[i])
 }
 
-const productos = [`Juego Espartano`, `Juego Torsion`, `Juego mecanico`, `Trofeo Primer Puesto`, `Trofeo Segundo Puesto`, `Trofeo tercer puesto`]
+const productos = [`Juego Espartano`, `Juego Torsion`, `Juego mecanico`, `Trofeo Primer Puesto`, `Trofeo Segundo Puesto`, `Trofeo tercer puesto`, `Trofeo cuarto puesto`]
 console.log(productos)
 for(let i = 0; i < productos.length; i++){
     console.log("Productos disponibles " + productos[i])
@@ -199,3 +199,8 @@ console.log(arrayMiembrosEquipo)
 productos.pop()
 console.log(productos)
 
+arrayMiembrosEquipo.splice(4, 1)
+console.log(arrayMiembrosEquipo)
+
+productos.splice(5, 1)
+console.log(productos)
