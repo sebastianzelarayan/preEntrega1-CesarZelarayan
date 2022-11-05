@@ -192,3 +192,7 @@ console.log(productos)
 for(let i = 0; i < productos.length; i++){
     console.log("Productos disponibles " + productos[i])
 }
+
+arrayMiembrosEquipo.push("nuevo miembro del equipo Ziddesign Geronimo")
+console.log(arrayMiembrosEquipo)
+
